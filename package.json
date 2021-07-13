@@ -20,6 +20,9 @@
     "react",
     "renderer"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "Hasnae R.",
   "license": "Apache-2.0",
   "bugs": {
@@ -27,8 +30,12 @@
   },
   "homepage": "https://github.com/viqueen/notion-renderer#readme",
   "devDependencies": {
+    "@types/react": "^17.0.14",
     "husky": "^7.0.1",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   }
 }
