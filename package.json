@@ -1,0 +1,34 @@
+{
+  "name": "notion-renderer",
+  "version": "1.0.0",
+  "description": "notion content react renderer",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "format:check": "prettier --check .",
+    "format": "prettier --check --write .",
+    "build": "tsc --watch",
+    "ci:build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viqueen/notion-renderer.git"
+  },
+  "keywords": [
+    "notion",
+    "content",
+    "react",
+    "renderer"
+  ],
+  "author": "Hasnae R.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/viqueen/notion-renderer/issues"
+  },
+  "homepage": "https://github.com/viqueen/notion-renderer#readme",
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
