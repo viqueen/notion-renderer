@@ -31,11 +31,15 @@
   "homepage": "https://github.com/viqueen/notion-renderer#readme",
   "devDependencies": {
     "@types/react": "^17.0.14",
+    "@types/react-syntax-highlighter": "^13.5.2",
     "husky": "^7.0.1",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
     "react": "^17.0.2"
+  },
+  "dependencies": {
+    "react-syntax-highlighter": "^15.4.3"
   }
 }
