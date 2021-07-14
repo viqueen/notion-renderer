@@ -5,11 +5,11 @@ import BulletedList from './BulletedList';
 import CodeBlock from './CodeBlock';
 import { HeaderBlock, SubHeaderBlock, SubSubHeaderBlock } from './HeadingBlock';
 
-const NotionContentRenderer = (props: { blocks: any; id: string }) => {
-    const { blocks, id } = props;
-    const content = blocks.block[`${id}`].value.content;
+const NotionContentRenderer = (props: { recordMap: any; id: string }) => {
+    const { recordMap, id } = props;
+    const content = recordMap.block[`${id}`].value.content;
     const items = content.map((item: string) => {
-        const data = blocks.block[`${item}`];
+        const data = recordMap.block[`${item}`];
         if (data) {
             return data.value;
         }

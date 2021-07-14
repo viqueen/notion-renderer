@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content is rendered 1`] = `
+<div>
+  <h3>
+    header
+  </h3>
+  <h4>
+    subheader
+  </h4>
+  <h5>
+    sub sub header
+  </h5>
+  <span>
+     
+  </span>
+</div>
+`;
