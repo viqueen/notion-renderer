@@ -1,6 +1,9 @@
 # notion-renderer
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=viqueen_notion-renderer)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=viqueen_notion-renderer&metric=alert_status)](https://sonarcloud.io/dashboard?id=viqueen_notion-renderer)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=viqueen_notion-renderer&metric=coverage)](https://sonarcloud.io/dashboard?id=viqueen_notion-renderer)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=viqueen_notion-renderer&metric=security_rating)](https://sonarcloud.io/dashboard?id=viqueen_notion-renderer)
+[![Known Vulnerabilities](https://snyk.io/test/github/viqueen/notion-renderer/badge.svg?targetFile=package.json)](https://snyk.io/test/github/viqueen/notion-renderer?targetFile=package.json)
 
 ## what ?
 
