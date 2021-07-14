@@ -11,6 +11,171 @@ exports[`content is rendered 1`] = `
   <h5>
     sub sub header
   </h5>
+  <ul>
+    <li>
+      <p>
+        <span>
+          list item 1
+        </span>
+      </p>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <p>
+        <span>
+          list item 2
+        </span>
+      </p>
+    </li>
+  </ul>
+  <pre
+    className="p-3"
+    style={
+      Object {
+        "background": "#F0F0F0",
+        "color": "#444",
+        "display": "block",
+        "overflowX": "auto",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <code
+      className="language-Java"
+      style={
+        Object {
+          "whiteSpace": "pre",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        public
+      </span>
+      <span
+        style={Object {}}
+      >
+         
+      </span>
+      <span
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+      >
+        static
+      </span>
+      <span
+        style={Object {}}
+      >
+         
+      </span>
+      <span
+        style={
+          Object {
+            "color": "#397300",
+          }
+        }
+      >
+        void
+      </span>
+      <span
+        style={Object {}}
+      >
+         
+      </span>
+      <span
+        className="hljs-function"
+        style={
+          Object {
+            "color": "#880000",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        main
+      </span>
+      <span
+        className="hljs-function"
+        style={Object {}}
+      >
+        (
+      </span>
+      <span
+        className="hljs-function hljs-params"
+        style={
+          Object {
+            "color": "#397300",
+          }
+        }
+      >
+        String
+      </span>
+      <span
+        className="hljs-function hljs-params"
+        style={Object {}}
+      >
+        ... args
+      </span>
+      <span
+        className="hljs-function"
+        style={Object {}}
+      >
+        )
+      </span>
+      <span
+        style={Object {}}
+      >
+         {
+
+      </span>
+      }
+
+    </code>
+  </pre>
+  <p>
+    <span>
+      some 
+    </span>
+    <b>
+      bold
+    </b>
+    <span>
+       and 
+    </span>
+    <i>
+      italic
+    </i>
+    <span>
+       and 
+    </span>
+    <u>
+      underlined 
+    </u>
+    <b>
+      <u>
+        and bold underlined
+      </u>
+    </b>
+    <u>
+       
+    </u>
+    <i>
+      <u>
+        and italic underlined
+      </u>
+    </i>
+  </p>
+  <span>
+     
+  </span>
   <span>
      
   </span>

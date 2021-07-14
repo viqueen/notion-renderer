@@ -8,8 +8,9 @@
     "format:check": "prettier --check .",
     "format": "prettier --check --write .",
     "build": "tsc --watch",
-    "test": "jest --watch",
+    "test": "jest --watchAll --collect-coverage",
     "test:data": "node notion.content.js",
+    "test:update": "jest --updateSnapshot",
     "ci:build": "tsc",
     "ci:test": "jest"
   },

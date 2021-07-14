@@ -11,7 +11,12 @@
             "380ab311-e3f3-4f1f-9e72-f920f8248fd4",
             "258be035-718d-44ec-a0fe-6dba409726f9",
             "83ccb8f8-340a-435b-9276-471923780b84",
-            "c999168a-edaa-4452-93ec-e75fad4a1f82"
+            "e6691906-3ed4-4858-a98d-a90fbd216b5c",
+            "82af7e41-6b1e-4038-af49-0f168a935300",
+            "ffc24b64-a191-41e4-924b-53e2be9b8f7d",
+            "bffed570-ab25-4491-9b10-03001304697d",
+            "f1c492fe-8566-4994-b588-d3e43d129a4c",
+            "34a7edc9-5438-4498-bce9-9e4206850e7b"
           ],
           "type": "page"
         }
@@ -95,7 +100,55 @@
           "type": "sub_sub_header"
         }
       },
-      "c999168a-edaa-4452-93ec-e75fad4a1f82": {
+      "e6691906-3ed4-4858-a98d-a90fbd216b5c": {
+        "value": {
+          "properties": {
+            "title": [["list item 1"]]
+          },
+          "type": "bulleted_list"
+        }
+      },
+      "82af7e41-6b1e-4038-af49-0f168a935300": {
+        "value": {
+          "properties": {
+            "title": [["list item 2"]]
+          },
+          "type": "bulleted_list"
+        }
+      },
+      "ffc24b64-a191-41e4-924b-53e2be9b8f7d": {
+        "value": {
+          "properties": {
+            "title": [["public static void main(String... args) {\n}"]],
+            "language": [["Java"]]
+          },
+          "type": "code"
+        }
+      },
+      "bffed570-ab25-4491-9b10-03001304697d": {
+        "value": {
+          "properties": {
+            "title": [
+              ["some "],
+              ["bold", [["b"]]],
+              [" and "],
+              ["italic", [["i"]]],
+              [" and "],
+              ["underlined ", [["_"]]],
+              ["and bold underlined", [["_"], ["b"]]],
+              [" ", [["_"]]],
+              ["and italic underlined", [["_"], ["i"]]]
+            ]
+          },
+          "type": "text"
+        }
+      },
+      "f1c492fe-8566-4994-b588-d3e43d129a4c": {
+        "value": {
+          "type": "text"
+        }
+      },
+      "34a7edc9-5438-4498-bce9-9e4206850e7b": {
         "value": {
           "type": "text"
         }
