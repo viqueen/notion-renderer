@@ -27,7 +27,7 @@ const NotionContentRenderer = (props: { recordMap: any; id: string }) => {
             case 'code':
                 return <CodeBlock properties={item.properties} key={index} />;
             case 'divider':
-                return <hr />;
+                return <hr key={index} />;
             case 'header':
                 return <HeaderBlock properties={item.properties} key={index} />;
             case 'sub_header':
