@@ -15,12 +15,6 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run ci:test
-  sonarcloud:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:

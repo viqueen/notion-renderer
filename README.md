@@ -1,6 +1,10 @@
 # notion-renderer
 
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=viqueen_notion-renderer)
+
 ## what ?
+
+Simple and naive Notion react renderer, not as advanced as [react-notion-x](https://github.com/NotionX/react-notion-x)
 
 ```bash
 npm install notion-renderer react --save
@@ -8,6 +12,7 @@ npm install notion-renderer react --save
 
 ```javascript
 import { NotionContentRenderer } from "notion-renderer";
+import fetch from "cross-fetch";
 
 const contentId = `<NOTION_CONTENT_ID>`;
 const data = await fetch(`https://www.notion.so/api/v3/loadPageChunk`, {
@@ -35,9 +40,10 @@ const { recordMap } = data;
 ## why ?
 
 - I was writing some notes and reflections on publishing based on my decade worth of experience in the field
-- I stumbled upon Notion
-- I thought to make friends with its API using NodeJS, I figured it would make a great refresher
-- so I ended up re-inventing one or two wheels
+- I stumbled upon Notion and thought I'd make friends with its API
+- I figured it would make a great NodeJS and react frontend refresher ... since I trapped myself in
+  Java/Maven backend world for way too long
+- so I ended up re-inventing one or two wheels for sake of unlearning old habits and picking up new ones.
 
 ## how ?
 
