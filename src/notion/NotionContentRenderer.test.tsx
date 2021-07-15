@@ -11,8 +11,13 @@ test('content is rendered', async () => {
     );
     const testData = JSON.parse(fs.readFileSync(testDataFile).toString());
     const { id, recordMap } = testData;
+    const imageSource = (url: string) => url;
     const component = renderer.create(
-        <NotionContentRenderer recordMap={recordMap} id={id} />
+        <NotionContentRenderer
+            recordMap={recordMap}
+            id={id}
+            imageSource={imageSource}
+        />
     );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
