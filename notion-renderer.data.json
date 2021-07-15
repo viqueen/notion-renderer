@@ -16,7 +16,7 @@
             "ffc24b64-a191-41e4-924b-53e2be9b8f7d",
             "bffed570-ab25-4491-9b10-03001304697d",
             "f1c492fe-8566-4994-b588-d3e43d129a4c",
-            "34a7edc9-5438-4498-bce9-9e4206850e7b"
+            "592d5525-f4a3-406d-a294-1282cc37e1b8"
           ],
           "type": "page"
         }
@@ -28,6 +28,8 @@
           },
           "content": [
             "d6eb03c6-2d7d-49ae-acaf-bba131eaf68d",
+            "7d015477-609b-45df-89f4-0ce80a0dd8d7",
+            "58a86c90-4a95-480c-ab52-9265bec7ddb9",
             "b57a5714-8258-4f73-8e8d-e2cf84d8b351",
             "dccc06b4-4148-4fcb-9b4a-0554759a2df8",
             "372994f5-9be0-4111-947a-239c59b114f8",
@@ -35,9 +37,20 @@
             "29335141-73ca-4b67-916c-ed5cbeecb3a2",
             "e378d2f2-1dfd-4801-a243-b9eebece300a",
             "7748ef0a-7dd1-44f1-acc8-d3a8add4e758",
+            "b21e1e0b-4a37-4863-95c0-1318f9ea7fc9",
             "7ff789eb-91c9-42c8-bbae-ea73aef735e3",
             "67a9b4d1-540c-4847-a7d9-3d899547ef0c",
-            "d4a8ad9e-64bf-4e2f-a602-841815e6397d"
+            "0f219156-a30d-4b7c-acab-cee793732840",
+            "b16302ce-7f43-46dd-bab6-98d7c88d124d",
+            "03f9ac3e-758a-4b97-9ff6-d9d8d1481ac1",
+            "a265eee2-9418-43e7-95a2-eac869e1004d",
+            "91605033-f90f-4d25-921b-e41cf100dcfe",
+            "c00e2db9-e32b-4790-8cf5-8603dd4d4806",
+            "5d7f079d-5a04-4006-b96c-4d029faa866d",
+            "0ad2eea4-01e6-402c-818c-4f1eaceea0b9",
+            "3388deb2-6198-4112-945d-c56687e3060b",
+            "d4a8ad9e-64bf-4e2f-a602-841815e6397d",
+            "2be3a726-632f-4df1-97fe-f934bc7fe1a8"
           ],
           "type": "page"
         }
@@ -49,9 +62,13 @@
           },
           "content": [
             "bd4d25e9-590e-4d60-9039-b1b098e75afc",
-            "e6b34a13-7769-4921-8045-6a5da7890eb1"
+            "e6b34a13-7769-4921-8045-6a5da7890eb1",
+            "b423709a-cf53-423f-a7e8-0411b7a3e3cd"
           ],
-          "type": "page"
+          "type": "page",
+          "format": {
+            "page_icon": "🛠️"
+          }
         }
       },
       "53c85aba-c6e4-41a1-ab0a-295ff40f4f8a": {
@@ -73,7 +90,19 @@
             "53b20cae-3d87-4bc6-94f3-de391cbc111f",
             "89c75e5f-233d-4dda-8c62-91c612d5d8d6"
           ],
-          "type": "page"
+          "type": "page",
+          "format": {
+            "page_icon": "📓",
+            "page_cover": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eab81bd0-0553-4609-b8eb-d761ca08c366/tiger-melbourne.jpeg",
+            "block_locked": false,
+            "block_locked_by": "d0a8cba1-b998-46a3-bcd1-0efb420410b1",
+            "copied_from_pointer": {
+              "id": "deaf16ee-fa75-454b-a0fc-87893bb3cff6",
+              "table": "block",
+              "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+            },
+            "page_cover_position": 0.5
+          }
         }
       },
       "380ab311-e3f3-4f1f-9e72-f920f8248fd4": {
@@ -148,9 +177,24 @@
           "type": "text"
         }
       },
-      "34a7edc9-5438-4498-bce9-9e4206850e7b": {
+      "592d5525-f4a3-406d-a294-1282cc37e1b8": {
         "value": {
-          "type": "text"
+          "properties": {
+            "source": [
+              [
+                "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f89bec3e-f891-4b1e-856a-f7aa7b85cc02/Screen_Shot_2021-07-15_at_3.23.25_pm.png"
+              ]
+            ]
+          },
+          "type": "image",
+          "format": {
+            "block_width": 1050,
+            "display_source": "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f89bec3e-f891-4b1e-856a-f7aa7b85cc02/Screen_Shot_2021-07-15_at_3.23.25_pm.png",
+            "block_full_width": false,
+            "block_page_width": true,
+            "block_aspect_ratio": 0.2819047619047619,
+            "block_preserve_scale": true
+          }
         }
       }
     }

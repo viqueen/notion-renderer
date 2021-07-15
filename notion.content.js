@@ -33,6 +33,7 @@ fetch(`https://www.notion.so/api/v3/loadPageChunk`, {
                     properties: block.value.properties,
                     content: block.value.content,
                     type: block.value.type,
+                    format: block.value.format,
                 },
             };
         }
