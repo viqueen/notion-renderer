@@ -4,8 +4,15 @@ import BlankBlock from './BlankBlock';
 import BulletedList from './BulletedList';
 import CodeBlock from './CodeBlock';
 import { HeaderBlock, SubHeaderBlock, SubSubHeaderBlock } from './HeadingBlock';
+import ImageBlock from './ImageBlock';
 
-const NotionContentRenderer = (props: { recordMap: any; id: string }) => {
+interface NotionContentRendererProps {
+    recordMap: any;
+    id: string;
+    imageSource: (url: string) => string;
+}
+
+const NotionContentRenderer = (props: NotionContentRendererProps) => {
     const { recordMap, id } = props;
     const content = recordMap.block[`${id}`].value.content;
     const items = content.map((item: string) => {
@@ -43,6 +50,16 @@ const NotionContentRenderer = (props: { recordMap: any; id: string }) => {
                 );
             case 'text':
                 return <TextBlock properties={item.properties} key={index} />;
+            case 'image':
+                return (
+                    <ImageBlock
+                        id={item.id}
+                        properties={item.properties}
+                        format={item.format}
+                        imageSource={props.imageSource}
+                        key={index}
+                    />
+                );
             default:
                 return <BlankBlock key={index} />;
         }
