@@ -36,8 +36,12 @@ const data = await fetch(`https://www.notion.so/api/v3/loadPageChunk`, {
 }).then((response) => response.json());
 
 const { recordMap } = data;
-
-<NotionContentRenderer recordMap={recordMap} id={contentId} />;
+const imageSource = (url) => url;
+<NotionContentRenderer
+  recordMap={recordMap}
+  id={contentId}
+  imageSource={imageSource}
+/>;
 ```
 
 ## why ?
