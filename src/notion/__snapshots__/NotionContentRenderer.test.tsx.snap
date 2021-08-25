@@ -13,7 +13,13 @@ exports[`content is rendered 1`] = `
   </h5>
   <ul>
     <li>
-      <p>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-line",
+          }
+        }
+      >
         <span>
           list item 1
         </span>
@@ -22,7 +28,13 @@ exports[`content is rendered 1`] = `
   </ul>
   <ul>
     <li>
-      <p>
+      <p
+        style={
+          Object {
+            "whiteSpace": "pre-line",
+          }
+        }
+      >
         <span>
           list item 2
         </span>
@@ -140,7 +152,13 @@ exports[`content is rendered 1`] = `
 
     </code>
   </pre>
-  <p>
+  <p
+    style={
+      Object {
+        "whiteSpace": "pre-line",
+      }
+    }
+  >
     <span>
       some 
     </span>

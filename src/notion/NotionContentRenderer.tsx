@@ -1,10 +1,11 @@
 import React from 'react';
 import TextBlock from './TextBlock';
 import BlankBlock from './BlankBlock';
-import BulletedList from './BulletedList';
+import BulletedListBlock from './BulletedListBlock';
 import CodeBlock from './CodeBlock';
 import { HeaderBlock, SubHeaderBlock, SubSubHeaderBlock } from './HeadingBlock';
 import ImageBlock from './ImageBlock';
+import CalloutBlock from './CalloutBlock';
 
 interface NotionContentRendererProps {
     recordMap: any;
@@ -29,7 +30,18 @@ const NotionContentRenderer = (props: NotionContentRendererProps) => {
         switch (item.type) {
             case 'bulleted_list':
                 return (
-                    <BulletedList properties={item.properties} key={index} />
+                    <BulletedListBlock
+                        properties={item.properties}
+                        key={index}
+                    />
+                );
+            case 'callout':
+                return (
+                    <CalloutBlock
+                        properties={item.properties}
+                        format={item.format}
+                        key={index}
+                    />
                 );
             case 'code':
                 return <CodeBlock properties={item.properties} key={index} />;
@@ -61,6 +73,7 @@ const NotionContentRenderer = (props: NotionContentRendererProps) => {
                     />
                 );
             default:
+                console.log(item.type);
                 return <BlankBlock key={index} />;
         }
     });

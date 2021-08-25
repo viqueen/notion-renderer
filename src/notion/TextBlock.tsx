@@ -46,7 +46,7 @@ const TextBlock = (text: { properties: any }) => {
             }, value);
         }
     );
-    return <p>{output}</p>;
+    return <p style={{ whiteSpace: 'pre-line' }}>{output}</p>;
 };
 
 export default TextBlock;

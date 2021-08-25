@@ -2,7 +2,7 @@ import React from 'react';
 import BlankBlock from './BlankBlock';
 import TextBlock from './TextBlock';
 
-const BulletedList = (list: { properties: any }) => {
+const BulletedListBlock = (list: { properties: any }) => {
     if (!list.properties) {
         return <BlankBlock />;
     }
@@ -15,4 +15,4 @@ const BulletedList = (list: { properties: any }) => {
     );
 };
 
-export default BulletedList;
+export default BulletedListBlock;

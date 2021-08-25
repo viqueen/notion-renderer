@@ -18,7 +18,7 @@ fetch(`https://www.notion.so/api/v3/loadPageChunk`, {
         chunkNumber: 0,
         cursor: { stack: [] },
         limit: 100,
-        verticalColumns: false,
+        verticalColumns: true,
     }),
 })
     .then((response) => response.json())
