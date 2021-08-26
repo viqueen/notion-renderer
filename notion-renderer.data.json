@@ -8,7 +8,9 @@
             "title": [["notion-renderer-test"]]
           },
           "content": [
-            "380ab311-e3f3-4f1f-9e72-f920f8248fd4",
+            "3883c824-7739-480a-a182-69807937f367",
+            "7e0839aa-3caa-4933-aba8-3d7f845a79cf",
+            "0d075e29-b94f-4ddc-b305-7d8f0fa2a94a",
             "258be035-718d-44ec-a0fe-6dba409726f9",
             "83ccb8f8-340a-435b-9276-471923780b84",
             "e6691906-3ed4-4858-a98d-a90fbd216b5c",
@@ -105,7 +107,55 @@
           }
         }
       },
+      "3883c824-7739-480a-a182-69807937f367": {
+        "value": {
+          "content": [
+            "998c7906-bc9e-430b-9cb5-f59e8c7d0e75",
+            "b0057f67-2086-4f47-897f-78f069d0939c"
+          ],
+          "type": "column_list"
+        }
+      },
+      "998c7906-bc9e-430b-9cb5-f59e8c7d0e75": {
+        "value": {
+          "content": ["380ab311-e3f3-4f1f-9e72-f920f8248fd4"],
+          "type": "column",
+          "format": {
+            "column_ratio": 0.5
+          }
+        }
+      },
       "380ab311-e3f3-4f1f-9e72-f920f8248fd4": {
+        "value": {
+          "properties": {
+            "title": [["Some content on the left"]]
+          },
+          "type": "text"
+        }
+      },
+      "b0057f67-2086-4f47-897f-78f069d0939c": {
+        "value": {
+          "content": ["0d3bbe1d-f403-4e59-a8c5-118354d047a6"],
+          "type": "column",
+          "format": {
+            "column_ratio": 0.5
+          }
+        }
+      },
+      "0d3bbe1d-f403-4e59-a8c5-118354d047a6": {
+        "value": {
+          "type": "table_of_contents",
+          "format": {
+            "block_color": "gray"
+          }
+        }
+      },
+      "7e0839aa-3caa-4933-aba8-3d7f845a79cf": {
+        "value": {
+          "type": "text"
+        }
+      },
+      "0d075e29-b94f-4ddc-b305-7d8f0fa2a94a": {
         "value": {
           "properties": {
             "title": [["header"]]
