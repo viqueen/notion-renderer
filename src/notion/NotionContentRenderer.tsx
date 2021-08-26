@@ -16,7 +16,6 @@ interface NotionContentRendererProps {
 interface NotionBlockProps {
     content: NotionContentRendererProps;
     item: any;
-    index: number;
 }
 
 const NotionBlock = (props: NotionBlockProps) => {
@@ -33,6 +32,36 @@ const NotionBlock = (props: NotionBlockProps) => {
             );
         case 'code':
             return <CodeBlock properties={item.properties} />;
+        case 'column':
+            const blocks = item.content.map(
+                (dataId: string) => content.recordMap.block[dataId].value
+            );
+            const renderedBlocks = blocks.map((block: any, index: number) => {
+                return (
+                    <NotionBlock
+                        content={props.content}
+                        item={block}
+                        key={index}
+                    />
+                );
+            });
+            return <>{renderedBlocks}</>;
+        case 'column_list':
+            const columns = item.content.map(
+                (columnId: string) => content.recordMap.block[columnId].value
+            );
+            const renderedColumns = columns.map(
+                (column: any, index: number) => {
+                    return (
+                        <NotionBlock
+                            content={props.content}
+                            item={column}
+                            key={index}
+                        />
+                    );
+                }
+            );
+            return <>{renderedColumns}</>;
         case 'divider':
             return <hr />;
         case 'header':
@@ -72,14 +101,7 @@ const NotionContentRenderer = (props: NotionContentRendererProps) => {
         if (!item) {
             return undefined;
         }
-        return (
-            <NotionBlock
-                content={props}
-                item={item}
-                index={index}
-                key={index}
-            />
-        );
+        return <NotionBlock content={props} item={item} key={index} />;
     });
 
     return <div>{renderedItems}</div>;
