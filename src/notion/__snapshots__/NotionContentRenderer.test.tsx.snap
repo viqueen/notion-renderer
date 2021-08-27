@@ -2,6 +2,23 @@
 
 exports[`content is rendered 1`] = `
 <div>
+  <p
+    style={
+      Object {
+        "whiteSpace": "pre-line",
+      }
+    }
+  >
+    <span>
+      Some content on the left
+    </span>
+  </p>
+  <span>
+     
+  </span>
+  <span>
+     
+  </span>
   <h3>
     header
   </h3>
