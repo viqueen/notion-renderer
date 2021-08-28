@@ -47,11 +47,14 @@ const NotionBlock = (props: NotionBlockProps) => {
             });
             return <>{renderedBlocks}</>;
         case 'column_list':
-            const columns = item.content.map(
-                (columnId: string) => content.recordMap.block[columnId].value
-            );
+            const columns = item.content.map((columnId: string) => {
+                return content.recordMap.block[columnId]?.value;
+            });
             const renderedColumns = columns.map(
                 (column: any, index: number) => {
+                    if (!column) {
+                        return undefined;
+                    }
                     return (
                         <NotionBlock
                             content={props.content}

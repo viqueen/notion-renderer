@@ -7,9 +7,12 @@ const CalloutBlock = (callout: { properties: any; format: any }) => {
         return <BlankBlock />;
     }
     const { block_color } = callout.format;
-
+    const calloutClassName = `${block_color} notion-callout`;
     return (
-        <div className={block_color} style={{ padding: 24, marginBottom: 15 }}>
+        <div
+            className={calloutClassName}
+            style={{ padding: 24, marginBottom: 15 }}
+        >
             <TextBlock properties={callout.properties} />
         </div>
     );
