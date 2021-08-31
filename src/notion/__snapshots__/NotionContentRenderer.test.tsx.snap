@@ -19,6 +19,27 @@ exports[`content is rendered 1`] = `
   <span>
      
   </span>
+  <div
+    className="orange_background notion-callout"
+    style={
+      Object {
+        "marginBottom": 15,
+        "padding": 24,
+      }
+    }
+  >
+    <p
+      style={
+        Object {
+          "whiteSpace": "pre-line",
+        }
+      }
+    >
+      <span>
+        wow some callout wow
+      </span>
+    </p>
+  </div>
   <h3>
     header
   </h3>

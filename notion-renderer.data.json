@@ -10,7 +10,8 @@
           "content": [
             "3883c824-7739-480a-a182-69807937f367",
             "7e0839aa-3caa-4933-aba8-3d7f845a79cf",
-            "0d075e29-b94f-4ddc-b305-7d8f0fa2a94a",
+            "464e5de7-9cac-41a4-ac31-103cca88da24",
+            "4c0a569a-fcfe-47af-8067-6584f7aabeea",
             "258be035-718d-44ec-a0fe-6dba409726f9",
             "83ccb8f8-340a-435b-9276-471923780b84",
             "e6691906-3ed4-4858-a98d-a90fbd216b5c",
@@ -155,7 +156,19 @@
           "type": "text"
         }
       },
-      "0d075e29-b94f-4ddc-b305-7d8f0fa2a94a": {
+      "464e5de7-9cac-41a4-ac31-103cca88da24": {
+        "value": {
+          "properties": {
+            "title": [["wow some callout wow"]]
+          },
+          "type": "callout",
+          "format": {
+            "page_icon": "💡",
+            "block_color": "orange_background"
+          }
+        }
+      },
+      "4c0a569a-fcfe-47af-8067-6584f7aabeea": {
         "value": {
           "properties": {
             "title": [["header"]]

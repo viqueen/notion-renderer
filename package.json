@@ -1,6 +1,6 @@
 {
   "name": "notion-renderer",
-  "version": "1.0.0-m02",
+  "version": "1.0.0-m03",
   "description": "notion content react renderer",
   "main": "dist/index.js",
   "scripts": {
